@@ -21,7 +21,6 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
 }
 
 .App-link {
@@ -35,4 +34,45 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.night {
+  background-image: url("night.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.day {
+  background-image: url("day.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.main-screen {
+  height: 610px;
+  width: 310px;
+}
+
+.temp-text {
+  font-size: 6vh;
+}
+
+.degree-text {
+  font-size: 3vh;
+}
+
+.image-text {
+  position: relative;
+  top: -12px;
+}
+
+.wrap-text {
+  word-wrap: break-word;
+  word-break: break-all;
 }

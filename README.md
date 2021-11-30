@@ -1,3 +1,21 @@
+# OpenWeatherMap API Weather App - Created for Full Stack Development I Lab Test
+
+## Screenshots
+
+### This weather app will change the background depending on if it is day or night.
+
+![Alt text](/src/screenshots/day_view.png "Day Weather App")
+![Alt text](/src/screenshots/night_view.png "Night Weather App")
+
+### You can change the city in the fetch API command to any city in Openweathermap's database and it will fetch the results for you.
+
+![Alt text](/src/screenshots/vancouver.png "Day Weather App")
+![Alt text](/src/screenshots/halifax.png "Night Weather App")
+
+### Full Screen View
+
+![Alt text](/src/screenshots/full_view.JPG "Night Weather App")
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
